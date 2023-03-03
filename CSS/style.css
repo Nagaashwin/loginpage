@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#form{
+    width: 25rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgb(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgb(255, 255, 255, .3);
+    border-top: 1px solid rgb(255, 255, 255, .3);
+}
+
+
+
+#first{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+#box{
+    font-size: 20px;
+    color: black;
+    margin-left: 10%;   
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+
+#user{
+    
+    margin:  5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+#pass{
+    margin:5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    border-bottom: 1px solid black ;
+}
+
+
+#btn{
+    width: 50%;
+    margin: 25px 100px auto;
+    
+    font-size: 15px;
+    background-color: rgb(255,255,255,0.06);
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
+#car{
+    text-align: center;
+    margin: 200px auto;
+}
+
+
+
+
+
+
+
